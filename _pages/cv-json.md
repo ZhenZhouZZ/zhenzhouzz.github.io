@@ -9,25 +9,25 @@ redirect_from:
 
 {% include base_path %}
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
 <style>
   .archive {
-    width: 80%;
-    margin: 0 auto;
-    float: none;
-    padding-right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
-  @media (min-width: 80em) {
-    .archive {
-      width: 70%;
-    }
+  .pdf-container {
+    width: 100%;
+    height: 85vh;
+    margin-bottom: 20px;
   }
 </style>
 
-{% include cv-template.html %}
+<object class="pdf-container" data="{{ base_path }}/files/My_CV.pdf" type="application/pdf">
+  <p>Your browser doesn't support embedded PDFs. 
+     <a href="{{ base_path }}/files/My_CV.pdf">Click here to download the PDF</a> instead.
+  </p>
+</object>
 
 <div class="cv-download-links">
   <a href="{{ base_path }}/files/My_CV.pdf" class="btn btn--primary">Download CV as PDF</a>
