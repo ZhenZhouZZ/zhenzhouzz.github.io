@@ -9,7 +9,7 @@ redirect_from:
 
 About me
 ======
-Currently, I am a Research Fellow at the Athinoula A. Martinos Center for Biomedical Imaging, working under the mentorship of Dr. Iman Aganj, with close collaboration with Dr. Bruce Fischl. My research focuses on developing advanced harmonization methods for structural brain connectivity, specifically addressing critical challenges in multi-site neuroimaging studies.
+Currently, I am a Research Fellow at the Athinoula A. Martinos Center for Biomedical Imaging, working under the mentorship of Dr. Iman Aganj, with close collaboration with Dr. Bruce Fischl. My research focuses on developing advanced harmonization methods for brain connectivity, specifically addressing critical challenges in multi-site neuroimaging studies.
 
 News
 ======
